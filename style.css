@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../fonts/Inter-Bold.ttf');
+}
+
+body, header, div, section, main, p, u, li{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+  font-family: 'Inter-Regular', sans-serif;
+  color: #585E65;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  font-family: 'Inter-Regular', sans-serif;
+  color: #4C6EF5;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container-header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px 25px 80px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.215);
+
+}
+
+.txt-menu {
+  flex: 4;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 400px;
+  padding-left: 0px;
+}
+
+.txt-logo {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.btn-header {
+  flex: 1;
+  background-color: #4C6EF5;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container-main {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  padding: 30px 80px 0px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.box-card:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.box-card {
+  background-color: rgb(255, 255, 255);
+  width: 24%;
+  height: 380px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.img-card {
+  align-self: center;
+  height: 50%;
+  max-width: 100%;
+}
+
+.txt-card {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.btn-card {
+  width: 100%;
+  background-color: #4C6EF5;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
